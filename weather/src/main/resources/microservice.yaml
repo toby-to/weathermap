@@ -17,7 +17,7 @@ servicecomb:
       bizkeeper:
         enabled: true
     client:
-      serverUri:  https://192.168.100.110:30100,https://192.168.100.14:30100 #此处填写要注册到的微服务引擎的配置中心地址
+      serverUri:  https://192.168.100.110:30110,https://192.168.100.14:30110 #此处填写要注册到的微服务引擎的配置中心地址
       refreshMode: 1
       refresh_interval: 5000
   rest:
